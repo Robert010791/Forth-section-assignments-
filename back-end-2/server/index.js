@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 const {
   getAllHouses,
-  deleteHouse,
+  deleteHouse,l
   createHouse,
   updateHouse,
 } = require('./controller/house.controller');
